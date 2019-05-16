@@ -1,0 +1,47 @@
+body {
+  margin: auto;
+  padding: 20%;
+}
+
+.content {
+  display: flex;
+  text-align: left;
+  background: #4cccec; 
+  
+}
+
+.content__cell {
+  flex: 1 1 0;
+  margin: 20px;
+  height: 100%;
+}
+
+.content__text {
+  padding: 5%;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.content__img {
+  width: 100%;
+}
+
+.content__button:hover {
+  transform: scale(1.1) perspective(1px);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 414px) {
+  .content__text {
+    padding: 0;
+    font-size: 10px;
+  }
+  .content__cell {
+    background-color: transparent;
+    margin: 5px;
+  }
+  body {
+    margin: 10px;
+    padding: 10px;
+  }
+}
