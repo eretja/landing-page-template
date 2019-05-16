@@ -1,1 +1,1 @@
-# denkcast award landing page
+# template landing page (flexbox)
